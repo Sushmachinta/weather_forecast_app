@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #87CEEB; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50; 
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #3498db; 
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60%;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #1e88e5; 
+  outline: none;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #1e88e5; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0c62b7; 
+}
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.weather-info p {
+  margin: 10px 0;
+}
+
+.weather-info p strong {
+  color: #3498db; 
+}
+
+form input, form button {
+  margin-top: 20px;
+}
+
+form button {
+  margin-left: 10px;
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-info p {
+  color: #2d3436; 
+}
+
+
+.weather-info {
+  transition: all 0.3s ease-in-out;
+}
